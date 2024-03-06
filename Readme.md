@@ -40,11 +40,11 @@ We welcome contributions from the community to improve the Innovative Hub Dashbo
 4. Push your branch to your fork.
 5. Submit a pull request to the main repository.
 
-Please make sure to follow our [code of conduct](https://github/tejababu846) when contributing.
+Please make sure to follow our [code of conduct](https://github.com/tejababu846) when contributing.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/tejababu846) file for details.
 
 ## Acknowledgements
 
