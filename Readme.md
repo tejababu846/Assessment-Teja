@@ -40,7 +40,7 @@ We welcome contributions from the community to improve the Innovative Hub Dashbo
 4. Push your branch to your fork.
 5. Submit a pull request to the main repository.
 
-Please make sure to follow our [code of conduct](CODE_OF_CONDUCT.md) when contributing.
+Please make sure to follow our [code of conduct](https://github/tejababu846) when contributing.
 
 ## License
 
