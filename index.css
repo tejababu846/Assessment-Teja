@@ -11,6 +11,7 @@
 body {
     padding: 20px;
     font-family: "PT Sans", sans-serif;
+    background: linear-gradient(to bottom, #FFB6C1, #87CEFA);
 }
 
 /* Sidebar Styles */
@@ -22,7 +23,7 @@ body {
     border-radius: 10px;
     position: relative;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.05);
-    background-color: rgb(240, 240, 240);
+    background: linear-gradient(to bottom, #87CEEB, #FFFFFF);
     z-index: 5;
 }
 
@@ -44,6 +45,7 @@ body {
 .left-nav {
     position: relative;
     border-bottom: 1px dotted rgba(0, 0, 0, 0.08);
+    background: linear-gradient(to bottom, #87CEEB, #FFFFFF);
 }
 
 .img img {
@@ -56,7 +58,9 @@ body {
 }
 
 .img img:hover {
-    scale: 1.1;
+    scale: 5;
+    margin-top: 10%;
+    margin-left: 100%;
 }
 
 .names span {
@@ -89,13 +93,14 @@ body {
 
 .teams {
     font-size: 13px;
+    padding: 15px;
 }
 
 .teams>span {
     border: 1px solid rgba(0, 0, 0, 0.08);
-    margin: 0px 5px 0 5px;
+    margin: 5px 5px 5px 5px;
     height: 22px;
-    padding: 5px;
+    padding: 15px;
     position: relative;
 }
 
@@ -113,7 +118,7 @@ body {
     border: 2px solid rgba(0, 0, 0, 0.08);
     position: absolute;
     top: 2px;
-    right: 9px;
+    right: 2px;
     padding: 3px;
     border-radius: 5px;
 }
@@ -121,7 +126,8 @@ body {
 .teams>span>p {
     position: absolute;
     top: 7px;
-    left: 26px;
+    left: 38px;
+    right: 10px;
 }
 
 .left div:nth-child(3) span:hover {
@@ -284,9 +290,9 @@ ul li .detail {
 
 #table {
     position: absolute;
-    top: 97px;
+    top: 100px;
     display: flex;
-    padding: 0 10px 0 10px;
+    padding: 5px 10px 5px 10px;
     width: calc(100% - 20px);
     gap: 0
 }
@@ -299,10 +305,10 @@ ul li .detail {
 
 .row {
     display: flex;
-    padding: 0 10px 0 10px;
+    padding: 5px 10px 5px 10px;
     width: calc(100% - 20px);
     height: 40px;
-    gap: 0
+    gap: 2
 }
 
 .scroll {
@@ -434,6 +440,7 @@ ul li .detail {
 
     .leftmenu .open-nav {
         display: flex;
+        padding: 5px;
     }
 
     .right {
@@ -443,6 +450,7 @@ ul li .detail {
     .row img {
         width: 25px;
         height: 25px;
+        padding: 5px;
     }
 }
 
@@ -453,7 +461,7 @@ ul li .detail {
     }
 
     #table-data span {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     #tabledata {
@@ -694,9 +702,7 @@ ul li .detail {
 
 .member img {
     height: 50px;
-    /* Adjust the height as needed */
-    border-radius: 50%;
-    /* Make the image circular */
+    border-radius: 100%;
     margin-bottom: -50%;
     width: 50%;
 }
